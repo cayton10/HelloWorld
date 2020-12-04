@@ -54,8 +54,21 @@ public class Main
         System.out.println("First number: " + num1 + " Second number: " + num2);
         
         
+        //Instantiate student object
+        Student student = new Student();
+        //Set student gpa
+        student.gpa = 3.5;
+        
+        
+        
         
         
     }
     
+}
+
+
+class Student
+{
+    public double gpa;
 }
